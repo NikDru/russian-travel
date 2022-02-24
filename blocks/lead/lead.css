@@ -1,5 +1,6 @@
 .lead {
-  margin: 56px 10% 0 10%;
+  margin: 56px 11.5% 0;
+  width: 77%;
   display: flex;
   flex-flow: column;
   justify-content: center;

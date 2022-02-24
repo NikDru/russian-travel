@@ -1,0 +1,7 @@
+.intro {
+  margin: 56px auto 0 11.5%;
+  width: 690px;
+  display: flex;
+  flex-flow: column;
+  align-content: flex-start;
+}
