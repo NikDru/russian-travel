@@ -1,7 +1,13 @@
 .place {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: 46.5% 1fr;
   row-gap: 48px;
-  column-gap: 40;
-  justify-content: space-between;
+  column-gap: 40px;
+}
+
+
+@media screen and (max-width: 320px) {
+  .place {
+    grid-template-columns: 1fr;
+  }
 }

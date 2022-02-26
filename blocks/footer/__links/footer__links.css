@@ -2,3 +2,10 @@
   display: flex;
   gap: 18px;
 }
+
+
+@media screen and (max-width: 320px) {
+  .footer__links {
+    flex-flow: column;
+  }
+}
