@@ -1,0 +1,5 @@
+.place__text {
+  display: flex;
+  flex-flow: column;
+  width: 45%;
+}

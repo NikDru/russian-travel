@@ -1,0 +1,7 @@
+.place {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 48px;
+  column-gap: 40;
+  justify-content: space-between;
+}
