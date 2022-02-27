@@ -2,6 +2,6 @@
   margin:  0 auto;
   padding: 24px 0;
   display: flex;
-  width: 92%;
+  width: 90%; /*92.5%*/
   justify-content: space-between;
 }

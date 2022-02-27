@@ -10,5 +10,13 @@
 @media screen and (min-width: 1600px) {
   .photo-grid {
     grid-template-columns: repeat(6, 1fr);
+    width: 92.5%;
   }
 }
+
+@media screen and (max-width: 425px) {
+  .photo-grid {
+    width: 90%;
+  }
+}
+
