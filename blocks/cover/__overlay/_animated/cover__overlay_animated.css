@@ -1,0 +1,7 @@
+.cover__overlay_animated {
+  transition: background 0.3s ease-in-out;
+}
+
+.cover__overlay_animated:hover {
+  background: rgba(42, 44, 47, 0.7);
+}

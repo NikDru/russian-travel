@@ -6,3 +6,9 @@
   row-gap: 16px;
   column-gap: 16px;
 }
+
+@media screen and (min-width: 1600px) {
+  .photo-grid {
+    grid-template-columns: repeat(6, 1fr);
+  }
+}

@@ -16,3 +16,9 @@
   flex-flow: column;
   row-gap: 32px;
 }
+
+@media screen and (max-width: 425px) {
+  .cover__overlay {
+    row-gap: 16px;
+  }
+}

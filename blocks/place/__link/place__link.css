@@ -1,8 +1,6 @@
 .place__link {
   color: #FFF;
   font-size: 18px;
-  line-height: 22px;
-  /* identical to box height, or 122% */
-
+  line-height: 1.2;
   text-decoration-line: underline;
 }

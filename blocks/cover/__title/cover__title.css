@@ -8,3 +8,11 @@
   text-align: center;
   color: rgba(255, 255, 255, 1);
 }
+
+@media screen and (max-width: 425px) {
+  .cover__title {
+    max-width: 288px;
+    font-size: 32px;
+    line-height: 1.1;
+  }
+}

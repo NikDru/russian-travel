@@ -5,8 +5,15 @@
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
-  line-height: 22px;
+  line-height: 1.2;
   /* or 122% */
   text-align: center;
   color: rgba(255, 255, 255, 1);
+}
+
+@media screen and (max-width: 425px) {
+  .cover__subtitle {
+    font-size: 14px;
+    line-height: 1.15;
+  }
 }
