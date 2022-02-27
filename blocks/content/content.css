@@ -1,0 +1,20 @@
+.content {
+  margin: 48px 0 92px;
+  display: flex;
+  flex-flow: column;
+  row-gap: 92px;
+}
+
+@media screen and (max-width: 768px) {
+  .content {
+    margin: 48px 0 88px;
+    row-gap: 88px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .content {
+    margin: 48px 0 64px;
+    row-gap: 64px;
+  }
+}

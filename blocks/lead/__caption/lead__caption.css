@@ -11,8 +11,8 @@
   text-transform: uppercase;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1023px) {
   .lead__caption {
-    margin-left: calc((100% - 92.5%)/2);
+    margin-left: calc((100% - 93.75%)/2);
   }
 }

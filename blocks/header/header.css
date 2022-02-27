@@ -1,7 +1,21 @@
 .header {
   margin:  0 auto;
-  padding: 24px 0;
+  padding: 24px 0 0 0;
   display: flex;
-  width: 90%; /*92.5%*/
+  width: 90.5%;
   justify-content: space-between;
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    padding-top: 28px;
+    width: 93.75%;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .header {
+    padding-top: 16px;
+    width: 90%;
+  }
 }

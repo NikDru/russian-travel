@@ -1,14 +1,14 @@
 .places {
-  margin: 92px auto 0;
-  width: 77%;
+  margin: 0 auto;
+  width: 90.5%;
   display: flex;
   flex-flow: column;
   row-gap: 80px;
 }
 
-@media screen and (max-width: 1280px) {
+@media screen and (min-width: 1280px) {
   .places {
-    width: 92.5%;
+    width: 77%;
   }
 }
 

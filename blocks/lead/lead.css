@@ -1,15 +1,15 @@
 .lead {
-  margin: 56px auto 0;
-  width: 77%;
+  margin: 0 auto;
+  width: 90.5%;
   display: flex;
   flex-flow: column;
   justify-content: center;
   align-items: center;
 }
 
-@media screen and (min-width: 1024px) and (max-width: 1280px) {
+@media screen and (min-width: 1280px) {
   .lead {
-    width: 92.5%;
+    width: 77%;
   }
 }
 

@@ -1,15 +1,14 @@
 .footer {
-  margin: 92px auto 0;
+  margin: 0 auto 0 calc((100% - 90.5%)/2);
   padding: 0 0 24px;
-  width: 92.5%;
+  width: 90.5%;
   display: flex;
   justify-content: space-between;
 }
 
-
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 767px) {
   .footer {
-    margin-top: 64px;
+    width: max-content;
     flex-flow: column;
     gap: 48px;
   }

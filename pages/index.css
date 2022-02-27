@@ -1,12 +1,9 @@
-/* Общий файл стилей. Соглашения: стили подключаются по мере их применения
- на странице, модификаторы подключаются вместе с блоками/элементами*/
 
-/* ============== Normalize ==========================================*/
-/* Обнуляем стандартные значения для большинства элементов html */
 @import url(../vendor/normalize.css);
 
-/* ============== Блок page ==========================================*/
+@import url(../blocks/link-animation/link-animation.css);
 @import url(../blocks/page/page.css);
+@import url(../blocks/content/content.css);
 
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__logo/header__logo.css);

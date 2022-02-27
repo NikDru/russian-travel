@@ -1,21 +1,26 @@
 .intro {
-  margin: 56px auto 0 calc((100% - 77%) / 2);
+  margin: 0 auto 0 calc((100% - 90.5%) / 2);
   max-width: 690px;
   display: flex;
   flex-flow: column;
   align-content: flex-start;
 }
 
-@media screen and (min-width: 1024px) and (max-width: 1280px) {
+@media screen and (min-width: 1280px) {
   .intro {
-    margin: 56px auto 0;
-    width: 92.5%;
+    margin-left: calc((100% - 77%) / 2);
   }
 }
 
 @media screen and (max-width: 1023px) {
   .intro {
-    width: 90%;
-    margin: 56px auto 0;
+    margin: 0 auto;
+    max-width: 93.75%
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .intro {
+    max-width: 90%
   }
 }

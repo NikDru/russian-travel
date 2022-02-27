@@ -3,5 +3,17 @@
   width: 100%;
   background-image: url(../../../images/kalegin-michail-179870-unsplash.png);
   background-size: cover;
-  opacity: 90%;
+  opacity: 0.9;
+}
+
+@media screen and (max-width: 768px) {
+  .lead__image {
+    margin-top: 56px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .lead__image {
+    margin-top: 40px;
+  }
 }
