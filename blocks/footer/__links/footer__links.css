@@ -9,10 +9,3 @@
     gap: 32px;
   }
 }
-
-@media screen and (max-width: 425px) {
-  .footer__links {
-    flex-flow: column;
-    gap: 32px;
-  }
-}

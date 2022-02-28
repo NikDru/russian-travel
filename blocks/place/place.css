@@ -11,10 +11,3 @@
     row-gap: 32px;
   }
 }
-
-@media screen and (max-width: 425px) {
-  .place {
-    grid-template-columns: 1fr;
-    row-gap: 32px;
-  }
-}

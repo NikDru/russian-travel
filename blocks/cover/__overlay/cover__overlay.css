@@ -2,11 +2,8 @@
   position: absolute;
   width: 100%;
   height: 100%;
-
   background: rgba(42, 44, 47, 0.3);
   top: 0;
-  z-index: 1;
-
   display: flex;
   align-items: center;
   justify-content: center;
@@ -14,6 +11,7 @@
   row-gap: 32px;
 }
 
+/* Убираем границу при ширине элемента в 100%. Тем более все равно ее незаметно =( */
 @media screen and (min-width: 1280px) {
   .cover__overlay {
     border: 1px solid #000000;
@@ -24,12 +22,6 @@
 }
 
 @media screen and (max-width: 767px) {
-  .cover__overlay {
-    row-gap: 16px;
-  }
-}
-
-@media screen and (max-width: 425px) {
   .cover__overlay {
     row-gap: 16px;
   }
