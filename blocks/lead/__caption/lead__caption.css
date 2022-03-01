@@ -13,3 +13,9 @@
     margin-left: calc((100% - 93.75%)/2);
   }
 }
+
+@media screen and (max-width: 425px) {
+  .lead__caption {
+    margin-left: calc((100% - 90%)/2);
+  }
+}
